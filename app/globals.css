@@ -24,4 +24,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  
+}
+.round_card::-webkit-scrollbar {
+  width: 0px;
 }
