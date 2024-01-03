@@ -4,7 +4,7 @@ export interface Match {
   winner?: string;
 }
 
-export const useMatchGenerator = (teams: string[]): Match[] => {
+export const matchGenerator = (teams: string[]): Match[] => {
   const round: Match[] = [];
   const n = teams.length;
 

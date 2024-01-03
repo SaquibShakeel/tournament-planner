@@ -1,6 +1,6 @@
 'use client'
 import React, {useState} from "react";
-import { Match } from "../Hooks/useMatchGenerator";
+import { Match } from "./matchGenerator";
 
 interface Props {
   match: Match;
